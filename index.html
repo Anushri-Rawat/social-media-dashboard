@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>Frontend Mentor | Socialmedia Dashboard</title>
+  </head>
+  <body class="theme-dark">
+    <header>
+      <div class="container d-flex justify-content-between row-two">
+        <div class="left-heading">
+          <h3>Social Media Dashboard</h3>
+          <p class="medium-text">Total followers:23,004</p>
+        </div>
+        <div class="right-heading d-flex">
+          <div class="mode">Dark Mode</div>
+          <div class="toggle">
+            <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk">
+              <div class="ball"></div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <section>
+        <div class="upper-cards">
+          <div class="row">
+            <div class="col-sm-6 col-lg-3 mb-3">
+              <div class="card facebook">
+                <div class="sns-name d-flex medium-text">
+                  <img src="./images/icon-facebook.svg" alt="" />
+                  <p>@nathanf</p>
+                </div>
+                <p class="year large-text">1987</p>
+                <p class="medium-text capitalize">Followers</p>
+                <div class="current-state small-text icon-up">
+                  <img src="./images/icon-up.svg" alt="" />
+                  <p>12 Today</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3">
+              <div class="card twitter">
+                <div class="sns-name d-flex medium-text">
+                  <img src="./images/icon-twitter.svg" alt="" />
+                  <p>@nathanf</p>
+                </div>
+                <p class="year large-text">1044</p>
+                <p class="medium-text capitalize">Followers</p>
+                <div class="current-state small-text icon-up">
+                  <img src="./images/icon-up.svg" alt="" />
+                  <p>90 Today</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3">
+              <div class="card instagram">
+                <div class="sns-name d-flex medium-text">
+                  <img src="./images/icon-instagram.svg" alt="" />
+                  <p>@nathanf</p>
+                </div>
+                <p class="year large-text">11K</p>
+                <p class="medium-text capitalize">Followers</p>
+                <div class="current-state small-text icon-up">
+                  <img src="./images/icon-up.svg" alt="" />
+                  <p>1000 Today</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3">
+              <div class="card youtube">
+                <div class="sns-name d-flex medium-text">
+                  <img src="./images/icon-youtube.svg" alt="" />
+                  <p>@nathanf</p>
+                </div>
+                <p class="year large-text">8239</p>
+                <p class="medium-text capitalize">Followers</p>
+                <div class="current-state small-text icon-down">
+                  <img src="./images/icon-down.svg" alt="" />
+                  <p>144 Today</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lower-cards">
+          <h4>Overview-Today</h4>
+          <div class="row">
+            <div class="col-sm-6 col-lg-3 mb-3">
+              <div class="card">
+                <div class="d-flex justify-content-between row-one">
+                  <p class="medium-text">Page views</p>
+                  <img src="./images/icon-facebook.svg" alt="" />
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-baseline"
+                >
+                  <p class="large-text">87</p>
+                  <div class="small-text icon-up">
+                    <img src="./images/icon-up.svg" alt="" />
+                    <p class="percent">3%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3">
+              <div class="card">
+                <div class="d-flex justify-content-between row-one">
+                  <p class="medium-text">Page views</p>
+                  <img src="./images/icon-facebook.svg" alt="" />
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-baseline"
+                >
+                  <p class="large-text">52</p>
+                  <div class="small-text icon-down">
+                    <img src="./images/icon-down.svg" alt="" />
+                    <p class="percent">2%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3">
+              <div class="card">
+                <div class="d-flex justify-content-between row-one">
+                  <p class="medium-text">Page views</p>
+                  <img src="./images/icon-instagram.svg" alt="" />
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-baseline"
+                >
+                  <p class="large-text">5462</p>
+                  <div class="small-text icon-up">
+                    <img src="./images/icon-up.svg" alt="" />
+                    <p class="percent">2357%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3">
+              <div class="card">
+                <div class="d-flex justify-content-between row-one">
+                  <p class="medium-text">Page views</p>
+                  <img src="./images/icon-instagram.svg" alt="" />
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-baseline"
+                >
+                  <p class="large-text">52k</p>
+                  <div class="small-text icon-up">
+                    <img src="./images/icon-up.svg" alt="" />
+                    <p class="percent">1375%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-lg-3 mb-3">
+              <div class="card">
+                <div class="d-flex justify-content-between row-one">
+                  <p class="medium-text">Page views</p>
+                  <img src="./images/icon-twitter.svg" alt="" />
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-baseline"
+                >
+                  <p class="large-text">117</p>
+                  <div class="small-text icon-up">
+                    <img src="./images/icon-up.svg" alt="" />
+                    <p class="percent">303%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3">
+              <div class="card">
+                <div class="d-flex justify-content-between row-one">
+                  <p class="medium-text">Page views</p>
+                  <img src="./images/icon-twitter.svg" alt="" />
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-baseline"
+                >
+                  <p class="large-text">507</p>
+                  <div class="small-text icon-up">
+                    <img src="./images/icon-up.svg" alt="" />
+                    <p class="percent">553%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3">
+              <div class="card">
+                <div class="d-flex justify-content-between row-one">
+                  <p class="medium-text">Page views</p>
+                  <img src="./images/icon-youtube.svg" alt="" />
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-baseline"
+                >
+                  <p class="large-text">107</p>
+                  <div class="small-text icon-down">
+                    <img src="./images/icon-down.svg" alt="" />
+                    <p class="percent">-10%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3">
+              <div class="card">
+                <div class="d-flex justify-content-between row-one">
+                  <p class="medium-text">Page views</p>
+                  <img src="./images/icon-youtube.svg" alt="" />
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-baseline"
+                >
+                  <p class="large-text">1407</p>
+                  <div class="small-text icon-down">
+                    <img src="./images/icon-down.svg" alt="" />
+                    <p class="percent">-12%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
